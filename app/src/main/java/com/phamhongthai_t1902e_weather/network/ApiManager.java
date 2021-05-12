@@ -10,6 +10,6 @@ import retrofit2.http.GET;
 public interface ApiManager {
     public static String URL = "http://dataservice.accuweather.com";
 
-    @GET("/forecasts/v1/hourly/12hour/353412?apikey=93Qg780lHwYM4SO58n7DFPLqHg4oKADn&language=vi-vn&metric=true")
+    @GET("/forecasts/v1/hourly/12hour/353412?apikey=5XWPrxHLas8Ygv3bzf4oWetHNheF7mZN&language=vi-vn&metric=true")
     Call<List<Weather>> getHour();
 }
